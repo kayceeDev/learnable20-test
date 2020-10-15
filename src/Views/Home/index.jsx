@@ -4,7 +4,7 @@ import './style.css'
 const Home = () => {
   return (
     <div>
-      
+      <p>hey</p>
     </div>
   );
 };
