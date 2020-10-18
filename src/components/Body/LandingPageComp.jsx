@@ -3,20 +3,23 @@ import React from "react";
 const LandingPageComp = () => {
   return (
     <section id="home-articles" className="m-1">
-      <div className="container">
+      <div className="containers">
         <div className="articles-container">
-          <article className="card">
+          <article id='first-card' className="card p-1">
             <div>
-              <h3 className="l-heading">
+              <div>
+              <h3 className="l-heading ">
                 Genesys provides opportunities for young Nigerian techies and
                 opportunities to grow and innovate.
               </h3>
-
+              </div>
+              <div>
               <p className='py-1'>
                 We understand that opportunities are scarce in these parts. We
                 are either creating or exposing our people to these
                 opportunities.
               </p>
+              </div>
             </div>
             <div></div>
           </article>
@@ -29,6 +32,10 @@ const LandingPageComp = () => {
               className="arrow"
             />
             <img src={require("../../images/box1.png")} alt="" />
+            <div className='play-btn'>
+              <span>
+              </span>
+            </div>
           </article>
 
 
